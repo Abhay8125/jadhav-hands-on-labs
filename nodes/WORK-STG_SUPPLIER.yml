@@ -86,7 +86,12 @@ operation:
           - columnReferences:
               - columnCounter: 6019d7c1-4768-4435-95c5-881f4adeb6ea
                 stepCounter: af4480f8-41cf-400e-b15a-29c0986b7337
-            transform: ""
+            transform: |+
+              regexp_replace("C_PHONE", '[^0-9]', '')
+
+
+
+
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 6721163d-93c1-4df1-bbf2-3b75f8590c92

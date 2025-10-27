@@ -86,7 +86,8 @@ operation:
           - columnReferences:
               - columnCounter: ac324201-df68-44a3-a7c0-f76dedc533e5
                 stepCounter: 57796393-5577-4c08-9bda-775c7015a9ed
-            transform: ""
+            transform: |
+              regexp_replace("C_PHONE", '[^0-9]', '')
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 74a81025-c612-45bf-8e53-9a70404504e6
@@ -132,15 +133,13 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases:
-          CUSTOMER: 57796393-5577-4c08-9bda-775c7015a9ed
+      - aliases: {}
         customSQL:
           customSQL: ""
-        dependencies:
-          - locationName: SRC
-            nodeName: CUSTOMER
+        dependencies: []
         join:
-          joinCondition: FROM {{ ref('SRC', 'CUSTOMER') }} "CUSTOMER"
+          joinCondition: |+
+
         name: STG_CUSTOMER
         noLinkRefs: []
   name: STG_CUSTOMER
