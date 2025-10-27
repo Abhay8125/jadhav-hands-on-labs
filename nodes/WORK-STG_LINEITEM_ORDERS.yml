@@ -318,7 +318,7 @@ operation:
         config: {}
         dataType: NUMBER(12,2)
         description: ""
-        name: O_TOTALPRICE
+        name: O_TOTALPRICE_LOCAL_CURRENCY
         nullable: false
         sourceColumnReferences:
           - columnReferences:
