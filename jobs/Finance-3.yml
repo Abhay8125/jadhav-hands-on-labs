@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "3"
+includeSelector: "{ location: WORK name: STG_USERS } OR { location: WORK name: DIM_USERS } OR { location: WORK name: DIM_USERS_Stats } OR { location: WORK name: FCT_Login_History }"
+name: Finance
+type: Job

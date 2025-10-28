@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "2"
+includeSelector: "{ location: WORK name: STG_CUSTOMER } OR { location: WORK name: STG_SUPPLIER } OR { location: WORK name: STG_LINEITEM_ORDERS_DIM_LOOKUP } OR { location: WORK name: STG_ORDERS } OR { location: WORK name: STG_LINEITEM } OR { location: WORK name: STG_PARTSUPP } OR { location: WORK name: STG_PART } OR { location: WORK name: DIM_SUPPLIER } OR { location: WORK name: DIM_CUSTOMER } OR { location: WORK name: DIM_PART } OR { location: WORK name: FCT_LINEITEM_ORDERS_DIM_LOOKUP }"
+name: Sales
+type: Job
