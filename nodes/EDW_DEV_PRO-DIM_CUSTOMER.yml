@@ -10,7 +10,7 @@ operation:
   deployEnabled: true
   description: customer data
   isMultisource: true
-  locationName: WORK
+  locationName: EDW_DEV_PRO
   materializationType: table
   metadata:
     appliedNodeTests: []

@@ -1,5 +1,8 @@
 fileVersion: 1
 id: "10"
-mappingDefinitions: {}
+mappingDefinitions:
+  EDW_DEV_PRO:
+    database: ""
+    schema: ""
 name: New Environment
 type: Environment

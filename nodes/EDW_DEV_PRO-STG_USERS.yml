@@ -1,6 +1,6 @@
 fileVersion: 1
-id: f9e898ac-7a0a-4abf-8cee-385c246aa54c
-name: STG_Login
+id: 801b1389-0198-442f-8f80-9e515fc9ab69
+name: STG_USERS
 operation:
   config:
     insertStrategy: INSERT
@@ -12,7 +12,7 @@ operation:
   deployEnabled: true
   description: ""
   isMultisource: false
-  locationName: WORK
+  locationName: EDW_DEV_PRO
   materializationType: table
   metadata:
     appliedNodeTests: []
@@ -26,9 +26,9 @@ operation:
         dependencies: []
         join:
           joinCondition: ""
-        name: STG_Login
+        name: STG_USERS
         noLinkRefs: []
-  name: STG_Login
+  name: STG_USERS
   overrideSQL: false
   schema: ""
   sqlType: Stage

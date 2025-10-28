@@ -1,0 +1,9 @@
+fileVersion: 1
+id: bae741cd-6761-41f9-a7e0-d62bed9ebf24
+name: user_analytics
+steps:
+  - 4ceaaf0f-e59d-40e9-8b45-aacf62e650d2
+  - 801b1389-0198-442f-8f80-9e515fc9ab69
+  - e907166f-beea-4562-b96c-1afe24e044ec
+  - f717c814-b46b-44e0-acd6-9f12162f4fc6
+type: Subgraph
